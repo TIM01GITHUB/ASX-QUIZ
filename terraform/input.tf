@@ -20,7 +20,7 @@ variable "scopes" {
     default = []
 }
 
-# New Code
+# -------------New Code -------------
 
 # Creating a set of VM instances based on the map supplied by the "instances" variable.
 resource "google_compute_instance" "vm_instance" {
